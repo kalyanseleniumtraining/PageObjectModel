@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay" duration-ms="13638" started-at="2021-10-06T08:56:20 IST" finished-at="2021-10-06T08:56:34 IST">
+    <groups>
+    </groups>
+    <test name="Srch With Bags" duration-ms="115" started-at="2021-10-06T08:56:20 IST" finished-at="2021-10-06T08:56:20 IST">
+      <class name="testcases.Search">
+        <test-method status="PASS" signature="searchEbay(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Search@6e0e048a]" name="searchEbay" duration-ms="18" started-at="2021-10-06T08:56:20 IST" finished-at="2021-10-06T08:56:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bags]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Art]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEbay -->
+      </class> <!-- testcases.Search -->
+    </test> <!-- Srch With Bags -->
+    <test name="Srch With Mobiles" duration-ms="13465" started-at="2021-10-06T08:56:20 IST" finished-at="2021-10-06T08:56:34 IST">
+      <class name="testcases.Search">
+        <test-method status="PASS" signature="searchEbay(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Search@6c49835d]" name="searchEbay" duration-ms="13460" started-at="2021-10-06T08:56:20 IST" finished-at="2021-10-06T08:56:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobiles]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Music]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YES]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEbay -->
+      </class> <!-- testcases.Search -->
+    </test> <!-- Srch With Mobiles -->
+  </suite> <!-- Ebay -->
+</testng-results>

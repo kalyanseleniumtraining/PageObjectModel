@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Ebay">
+  <test  name="Srch With Bags">
+  <parameter name="srchBoxValue" value="Bags"></parameter>
+  <parameter name="drpDownValue" value="Art"></parameter>
+  <parameter name="execute" value="NO"></parameter>
+    <classes>
+      <class name="testcases.Search"/>
+    </classes>
+  </test> 
+  
+  
+  <test  name="Srch With Mobiles">
+  <parameter name="srchBoxValue" value="Mobiles"></parameter>
+  <parameter name="drpDownValue" value="Music"></parameter>
+  <parameter name="execute" value="YES"></parameter>
+    <classes>
+      <class name="testcases.Search"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 
